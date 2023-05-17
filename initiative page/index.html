@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body></body>
+<style>   
+.bg{ 
+        position: relative;
+        height: 100%;
+        width: 100%;
+        z-index: 99999;
+    }
+    .bg::before {
+        content: "";
+        background-image:url();
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        /* top: ; */
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;  
+  } 
+   
+
+   
+  .bg1{
+        
+        position: relative;
+        height: 100%;
+        width: 100%;
+        z-index: 99999;
+    }
+    .bg1::before {
+        content: "";
+        background-image: url('Tata2.png');
+        /* background-size: ; */
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        
+  } 
+  
+  .bg10{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        z-index: 99999;
+    }
+    .bg10::before {
+        content: "";
+        background-image:url('InitiativeBanner.png');
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        z-index: -1;
+        
+  }
+  .progressbar {
+    width: 38%;
+    background-color: rgba(192, 182, 182, 0.473);
+    border-radius: 7px;
+    float: right;
+    height: 20px;
+    border-style: ridge;
+    overflow:hidden;
+    } 
+  
+  .progresss { 
+    width: 40%;
+     background-color: rgba(76, 175, 80, 0.8); 
+     transition: width 0.3s ease-in-out;
+    padding: 15px;
+    background-color: #fff; 
+   }
+
+  
+    @media  (max-width: 767px) {
+      .mobilescreen{
+        margin-top: 30px !important;
+      }
+      br{
+        display: none !important;
+      }
+      .image1{
+        margin-top: 100px !important;
+        margin-left: -40px;
+      }
+      .image2{
+        margin-top: 100px !important;
+      }
+      .image3{
+        display: flex;
+        justify-content: center;
+      }
+      .spd{
+        align-items: center;
+      }
+      
+    }
+
+</style>
+
+<div class="container-fluid bg10">
+
+  <div class="row d-flex justify-content-center align-items-center pt-5 ">
+    <div class="col-md-6 col-4 text-white ">
+      <h5 class="head-poster sm-fs-5" style="line-height: 1">EMBRACE <br><span class="span-lite"><h1>LITE</h1></span></h5>
+    </div>
+    <div class="col-md-4 col-6">
+        <div class="progressbar">
+      <div class="progresss"></div>
+    </div>
+    </div>
+    <div class="col-md-1 col-1 d-flex justify-content-center">
+                 
+      <i  class="bi bi-list text-white fs-3"></i>
+    </div>
+  </div>
+  <div class=" row d-flex justify-content-around h-100 ">
+        <div class="col-md-11 text-white " style="display: block; margin-top:auto;"> 
+                    <h1 class="text-first fw-bold  " style="line-height: 1.2; font-size: 70px;font-family: 'Lato', sans-serif; margin-left: 80px;"> Initiative <span class="fw-normal"> that </span> <span class="fw-normal"><br> drive an  </span>  impact  </h1>
+                    <p style="margin-left: 80px; text-align: justify;">Tata Group has been at the forefront of several initiatives that have<br> changed the lives of millions. With a specific emphasis on education,<br> social upliftment, employee empowerment, and women,s equality, the<br> group has unequivocally showcased its dedication to creating a more <br>equitable and inclusive future for all.</p>
+        </div> 
+   </div>
+</div>
+
+<!-- first -->
+
+   <div class="container" style="margin-top: 250px;">
+    <div class="row">
+        <div class="spd col-md-4 ">
+            <div class="box text-white  px-5 py-5" style="background-color:#083976; height: 100%;">
+                <div class="img"><img class="image3 img-fluid mt-4 " src="url('img10.jpg')" style="width:190px; height:70px; margin-left: -25px; padding-bottom: 10px;"></div>
+                <p style="margin-top: 5px; line-height: 20px; padding-right: 20px !important;" >To create a work environment based on mutual respect, acceptance, and empathy, the company launched the “ONEderful World” campaign. It features 12 impactful<br> insights that address inclusion and exclusion and reflects Tata Group,s ongoing commitment to promoting diversity and inclusion among employees, stakeholders, vendors, suppliers, and communities.</p>
+            </div>
+        </div>
+
+
+        <div class=" col-md-4 mobilescreen">
+            <div class="box text-black  px-5 py-5" style="height: 100%;">
+                 <div class="img"><img class="image img-fluid" src="url('Leader_Craft.png')" style="width:180px; height:100px; margin-left: -17px; "></div>
+                <p style="padding-bottom: 10px; line-height: 20px; margin-top: -5px; padding-right: 20px !important;" >An exclusive podcast channel that focuses on  helping individuals improve their leadership skills. It features celebrated leaders from both within and outside the Tata Group, as well as sportspeople, authors, and coaches, who provide a firsthand and unfiltered perspective on what has worked for them. What sets LeaderCraft apart is its emphasis on practical advice that listeners can apply immediately.</p>
+            </div>
+        </div>
+        
+        <div class=" col-md-4 mobilescreen">
+            <div class="box text-white  px-5 pt-5 " style="background-color:#083976; height: 100%;">
+                <img class="image img-fluid" src="url('Banner1.jpg')" style="width:250px; height:120px; margin-top: -15px; margin-left: -70px;">
+                <p style="margin-top: -33px; line-height: 20px; padding-right: 20px;">A platform designed to assist women who have taken a career break and are seeking to re-enter the workforce. It serves as a means to support women and enable them to restart their careers with renewed confidence by helping them identify and secure corporate roles that align with their skills, experience, and interests.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  
+<!-- second -->
+
+<div class="container h-100" style="margin-top: 190px;">
+    <div class="row">
+                  <div class="col-md-8" style="height: 100%;">
+                    <div class="bg">
+                      <div class="d-flex flex-column flex-md-row justify-content-around align-items-md-center">
+                        <div class="col-md-4 text-center d-flex justify-content-center align-items-center">
+                          <img class="image1 img-fluid " src="url('Tataengage.png')" style="width:170px; height:90px;  margin-top: -5px;">
+                        </div>
+                        <div class="spd col-md-8 text-white pt-5 mt-4 d-flex justify-content-center align-items-center px-5">
+                          <p style="margin-top: 80px; line-height: 20px; padding-bottom: 120px; margin-left: 10px;  padding-right: 20px;">This employee volunteering program aims to engage and empower individuals to give back to society by volunteering their time, skills, and expertise to support local communities and non-profit organizations. Employees can participate in various social projects, including education, healthcare, environmental sustainability, and skill development.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                <div class=" col-md-4 mobilescreen">
+                 <div class="box text-white  px-5 py-5" style="background-color:#083976; height: 99.3%;">
+                    <img class="image img-fluid " src="url('Tatalogo2.png')" style="width:250px; height:25px; margin-top: 20px; ">
+                <p style="margin-top: 15px; line-height: 20px; height: 218px; padding-right: 20px;">A flagship six-month leadership journey designed to elevate the high-potential early career talent and future leaders within the Tata Group. Blue Mint <br>combines classroom and experiential learning to help participants develop capabilities aligned with the “Future-ready” and “Future-engaged” Tata group talent architecture.</p>
+            </div>
+            </div>
+        </div>
+ </div>
+
+ <!-- Third -->
+ 
+  <div class="container h-100 mt-3">
+    <div class="row">
+        <div class="spd col-md-4 d-flex">
+            <div class=" text-white  px-5 py-5" style="background-color:#083976; height: 100%;">
+           <img class="image img-fluid " src="url('Tatalogo3.png')" style="width:130px; height:80px; margin-top: 10px; margin-left: -33px;">
+           <p style="line-height: 20px; padding-bottom: 5px; padding-right: 20px;">An exclusive in-house channel showcasing compact playlists of audio-based learning streams. These streams cover a wide range of topics, from matters of diversity, equity, and inclusion to breakthroughs and insights shared by experts from various Tata companies.</p>
+       </div>
+       </div>
+
+        <div class="col-md-8 mobilescreen" style="height: 100%;">
+            <div class="bg1">
+              <div class="d-flex flex-column flex-md-row justify-content-around align-items-md-center">
+                <div class="col-md-6 text-center d-flex justify-content-around">
+                  <img class="image2 img-fluid" src="url('TSG.png')" style="width:300px; height:15px; margin-top: -65px; ">
+                </div>
+                <div class="col-md-6 text-white pt- mt-5 px-4">
+                  <p style="margin-top: 100px; line-height: 20px; padding-bottom: 100px; margin-left: 40px; padding-right: 20px;">This employee volunteering program aims to engage and empower individuals to give back to society by volunteering their time, skills, and expertise to support local communities and non-profit organizations. Employees can participate in various social projects, including education, healthcare, environmental sustainability, and skill development.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+ </div>
+
+<!-- footer -->
+
+ <div class="container" style="text-align: center; margin-top: 160px;">
+  <h5>Let,s trace the Tata footprint across the globe. </h5>
+    <div class="text-center pb-5 "> 
+      <button type="button" class="btn fs-5 rounded-0 text-white " style="background: #63C75E; padding: 3px 55px !important; box-shadow: 0px 0px 1px 0.2px white; margin-top: 20px; ">Next</button>
+    </div>
+</div> 
+  <div class="container-fluid  text-white footer" style="width:100%; background: black"> 
+    <div class="container">
+      <p class="py-4 "  > © Copyright 2022 Tata Embrace lite. All Rights Reserved. Legal Disclaimer Open Source License Disclosure</p>
+     </div> 
+</div>
+</body>
+</html>
